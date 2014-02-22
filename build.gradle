@@ -1,0 +1,12 @@
+description = "JDK 8 Feature Examples"
+
+/*******  Java project plugin *******/
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+group = 'com.github.marcellodesales'
+archivesBaseName = 'jdk8-features-examples'
+version = "0.0.1-SNAPSHOT"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
